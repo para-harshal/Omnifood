@@ -445,10 +445,6 @@
     padding: 0 3%;
 }
 
-#diet-list {
-    padding-top: 2%;
-}
-
 #diet-type h1 {
     font-weight: 700;
     color: #333;
@@ -464,13 +460,17 @@
     word-spacing: 10px;
 }
 
-#diet-list > * {
+.diet-list {
+    padding-top: 2%;
+}
+
+.diet-list > * {
     display: flex;
     gap: 20px;
     margin: 18px 0;
  }
 
-#diet-list i {
+.diet-list i {
     color: orange;
     font-size: 25px;
 }
@@ -558,4 +558,201 @@
     font-size: 16px;
     line-height: 16px;
 }
+
+#pricing-section {
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+}
+
+#pricing-title-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    gap: 4%;
+}
+
+#pricing-title-section p{
+    color: #cf711f;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+#pricing-title-section h1{
+    color: #333;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+#pricing-cards {
+    flex: 3.8;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    gap: 4%;
+}
+
+.pricing-card {
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.pricing-card > * {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.pricing-card > p:nth-child(1) {
+    color: #CF711F;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    align-items: end;
+    gap: 2%;
+    justify-content: center;
+}
+
+.price > i {
+    font-size: 25px;
+}
+
+.price > p {
+    margin: 0;
+    color: #333;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-moto {
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 13%;
+}
+
+#pricing-description{
+    flex: 1;
+}
+
+#pricing-plan-benefits {
+    flex: 4;
+}
+
+.meal-benefits > * {
+    display: flex;
+    gap: 20px;
+    margin: 18px 0;
+}
+
+.meal-benefits > div > p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #555;
+}
+
+.meal-benefits i {
+    color: orange;
+    font-size: 25px;
+}
+
+.pricing-btn {
+    display: flex;
+    justify-content: center;
+    margin: 12% auto;
+}
+
+.pricing-btn button{
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #E67E22;
+    padding: 5% 12%;
+}
+
+#pricing-card-1 {
+    border: 1px solid #FDF2E9;
+}
+
+#pricing-card-2 {
+    background-color: #FDF2E9;
+}
+
+#pricing-description {
+    color: #555;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing-plan-benefits {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan-benefit > * {
+    margin: 7% 0;
+}
+
+#pricing-plan-benefits i {
+    color: orange;
+    background-color: #FDF2E9;
+    padding: 6%;
+    font-size: 26px;
+    border-radius: 50%;
+}
+
+#pricing-plan-benefits h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333;
+}
+
+#pricing-plan-benefits p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555;
+}
+
+#pricing-plan-benefits > * {
+    padding: 3%;
+}
+
+
+
+
+
 
